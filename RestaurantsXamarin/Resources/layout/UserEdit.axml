@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:text="Username"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/usernameEdit" />
+  <TextView
+      android:text="Password"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView2" />
+  <EditText
+      android:inputType="textPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/passwordEdit" />
+  <TextView
+      android:text="First Name"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView3" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/firstNameEdit" />
+  <TextView
+      android:text="Last Name"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView4" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/lastNameEdit" />
+  <Button
+      android:text="Save"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/save" />
+  <Button
+      android:text="Delete"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/delete" />
+  <Button
+      android:text="Cancel"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/cancel" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/errorsEdit" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="RestaurantsXamarin.RestaurantsXamarin" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="RestaurantsXamarin" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="Edit User" android:name="md570aba0057f84c35b6b54f1496da5ff63.EditActivity" />
+    <activity android:icon="@drawable/icon" android:label="RestaurantsXamarin" android:name="md570aba0057f84c35b6b54f1496da5ff63.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="RestaurantsActivity" android:name="md570aba0057f84c35b6b54f1496da5ff63.RestaurantsActivity" />
+    <activity android:label="Users" android:name="md570aba0057f84c35b6b54f1496da5ff63.UsersActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="RestaurantsXamarin.RestaurantsXamarin.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.RestaurantsXamarin.RestaurantsXamarin" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
