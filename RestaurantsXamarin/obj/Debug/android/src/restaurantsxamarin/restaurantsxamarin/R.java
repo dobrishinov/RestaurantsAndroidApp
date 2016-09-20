@@ -11,36 +11,90 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int avatar=0x7f020000;
+        public static final int bg=0x7f020001;
+        public static final int eatinatorbutton=0x7f020002;
+        public static final int icon=0x7f020003;
+        public static final int restauranthome=0x7f020004;
     }
     public static final class id {
-        public static final int cancel=0x7f050011;
-        public static final int delete=0x7f050010;
-        public static final int errorsEdit=0x7f050012;
-        public static final int firstNameEdit=0x7f05000c;
-        public static final int imageView1=0x7f050007;
-        public static final int lastNameEdit=0x7f05000e;
-        public static final int linearLayout1=0x7f050006;
-        public static final int login=0x7f050003;
-        public static final int password=0x7f050002;
-        public static final int passwordEdit=0x7f05000a;
-        public static final int register=0x7f050004;
-        public static final int result=0x7f050005;
-        public static final int save=0x7f05000f;
-        public static final int textView1=0x7f050000;
-        public static final int textView2=0x7f050009;
-        public static final int textView3=0x7f05000b;
-        public static final int textView4=0x7f05000d;
-        public static final int username=0x7f050001;
-        public static final int usernameEdit=0x7f050008;
+        public static final int account=0x7f070033;
+        public static final int add=0x7f070032;
+        public static final int addRestaurant=0x7f070010;
+        public static final int address=0x7f07001b;
+        public static final int cancel=0x7f070030;
+        public static final int delete=0x7f07002f;
+        public static final int description=0x7f07001e;
+        public static final int eatinator=0x7f070017;
+        public static final int email=0x7f07001a;
+        public static final int errorsEdit=0x7f070031;
+        public static final int exit=0x7f070035;
+        public static final int favouriteFoods=0x7f070020;
+        public static final int favouritePlace=0x7f070022;
+        public static final int firstName=0x7f070018;
+        public static final int firstNameEdit=0x7f07002c;
+        public static final int image=0x7f070027;
+        public static final int imageView1=0x7f070029;
+        public static final int lastName=0x7f070019;
+        public static final int lastNameEdit=0x7f07002d;
+        public static final int linearLayout1=0x7f070015;
+        public static final int linearLayout2=0x7f070016;
+        public static final int login=0x7f070013;
+        public static final int name=0x7f070025;
+        public static final int password=0x7f070012;
+        public static final int passwordEdit=0x7f07002b;
+        public static final int phone=0x7f07001c;
+        public static final int profileImageUrl=0x7f070023;
+        public static final int register=0x7f070024;
+        public static final int restaurantAddress=0x7f07000b;
+        public static final int restaurantDescription=0x7f070005;
+        public static final int restaurantEmail=0x7f070009;
+        public static final int restaurantImageUrl=0x7f07000f;
+        public static final int restaurantName=0x7f070001;
+        public static final int restaurantPhone=0x7f07000d;
+        public static final int restaurantType=0x7f070003;
+        public static final int restaurantWorkingTime=0x7f070007;
+        public static final int restaurants=0x7f070034;
+        public static final int result=0x7f070014;
+        public static final int save=0x7f07002e;
+        public static final int textView1=0x7f070000;
+        public static final int textView10=0x7f070021;
+        public static final int textView11=0x7f07000e;
+        public static final int textView2=0x7f070002;
+        public static final int textView3=0x7f070004;
+        public static final int textView4=0x7f070006;
+        public static final int textView5=0x7f070008;
+        public static final int textView6=0x7f07000a;
+        public static final int textView7=0x7f07000c;
+        public static final int textView8=0x7f07001d;
+        public static final int textView9=0x7f07001f;
+        public static final int type=0x7f070026;
+        public static final int username=0x7f070011;
+        public static final int usernameEdit=0x7f07002a;
+        public static final int workingTime=0x7f070028;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int restaurants=0x7f030001;
-        public static final int useredit=0x7f030002;
+        public static final int addrestaurant=0x7f030000;
+        public static final int login=0x7f030001;
+        public static final int main=0x7f030002;
+        public static final int register=0x7f030003;
+        public static final int restaurants=0x7f030004;
+        public static final int restaurantview=0x7f030005;
+        public static final int signmenu=0x7f030006;
+        public static final int useredit=0x7f030007;
+    }
+    public static final class menu {
+        public static final int menu_main=0x7f060000;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;
         public static final int Hello=0x7f040000;
+        public static final int account=0x7f040003;
+        public static final int add=0x7f040002;
+        public static final int exit=0x7f040005;
+        public static final int restaurants=0x7f040004;
+    }
+    public static final class style {
+        public static final int MyActionBar=0x7f050000;
     }
 }

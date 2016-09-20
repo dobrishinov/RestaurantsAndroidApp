@@ -4,16 +4,20 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="RestaurantsXamarin" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="Edit User" android:name="md570aba0057f84c35b6b54f1496da5ff63.EditActivity" />
-    <activity android:icon="@drawable/icon" android:label="RestaurantsXamarin" android:name="md570aba0057f84c35b6b54f1496da5ff63.MainActivity">
+  <application android:label="Restaurants" android:theme="@style/MyActionBar" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Add Restraurant" android:name="md570aba0057f84c35b6b54f1496da5ff63.AddRestraurantActivity" />
+    <activity android:label="Restaurants" android:name="md570aba0057f84c35b6b54f1496da5ff63.RestaurantViewActivity" />
+    <activity android:icon="@drawable/icon" android:label="Restaurants" android:name="md570aba0057f84c35b6b54f1496da5ff63.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="RestaurantsActivity" android:name="md570aba0057f84c35b6b54f1496da5ff63.RestaurantsActivity" />
-    <activity android:label="Users" android:name="md570aba0057f84c35b6b54f1496da5ff63.UsersActivity" />
+    <activity android:icon="@drawable/icon" android:label="All restaurants" android:name="md570aba0057f84c35b6b54f1496da5ff63.RestaurantsListActivity" />
+    <activity android:icon="@drawable/icon" android:label="Where can i eat today?" android:name="md570aba0057f84c35b6b54f1496da5ff63.RestaurantsActivity" />
+    <activity android:icon="@drawable/icon" android:label="Login" android:name="md54bb0c55a3f476f0ef2896880dde44275.LoginActivity" />
+    <activity android:icon="@drawable/icon" android:label="Register" android:name="md54bb0c55a3f476f0ef2896880dde44275.RegisterActivity" />
+    <activity android:icon="@drawable/icon" android:label="Account" android:name="md54bb0c55a3f476f0ef2896880dde44275.SignMenuActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="RestaurantsXamarin.RestaurantsXamarin.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

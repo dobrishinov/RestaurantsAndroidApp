@@ -2,34 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="@drawable/restauranthome">
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/username" />
-    <EditText
-        android:inputType="textPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/password" />
-    <Button
-        android:text="Log In"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/login" />
-    <Button
-        android:text="Register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/register" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/result" />
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="460dp">
+        <ImageButton
+            android:src="@drawable/eatinatorbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eatinator"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:background="@null" />
+    </LinearLayout>
 </LinearLayout>

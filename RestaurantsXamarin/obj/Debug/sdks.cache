@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sdk>
-  <AndroidApiLevel>24</AndroidApiLevel>
-  <AndroidApiLevelName>24</AndroidApiLevelName>
+  <AndroidApiLevel>23</AndroidApiLevel>
+  <AndroidApiLevelName>23</AndroidApiLevelName>
   <AndroidNdkPath>C:\Program Files\Android\ndk\android-ndk-r11c</AndroidNdkPath>
   <AndroidSdkBuildToolsPath>C:\Users\Dobrishinov\AppData\Local\Xamarin\MonoForAndroid\AndroidSDK\build-tools\23.0.2</AndroidSdkBuildToolsPath>
   <AndroidSdkBuildToolsBinPath>C:\Users\Dobrishinov\AppData\Local\Xamarin\MonoForAndroid\AndroidSDK\build-tools\23.0.2</AndroidSdkBuildToolsBinPath>

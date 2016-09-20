@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyActionBar"
+         />
+  <string name="add">Add Restaurants</string>
+  <string name="account">Account</string>
+  <string name="restaurants">Restaurants</string>
+  <string name="exit">Exit</string>
+</resources>

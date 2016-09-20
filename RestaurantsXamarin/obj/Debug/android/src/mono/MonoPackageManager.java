@@ -99,7 +99,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "RestaurantsXamarin.dll" comes first in this list. */
 		"RestaurantsXamarin.dll",
-		"Java.Interop.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",
 		"System.Collections.dll",
@@ -110,7 +111,6 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
-		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
